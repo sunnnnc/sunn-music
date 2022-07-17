@@ -1,0 +1,117 @@
+
+.search-search {
+	margin: 70rpx 30rpx 50rpx 30rpx;
+	display: flex;
+	align-items: center;
+	height: 70rpx;
+	background: #f7f7f7;
+	border-radius: 50rpx;
+}
+.search-search text {
+	margin: 0 26rpx;
+}
+.search-search input {
+	flex: 1;
+	font-size: 26rpx;
+	background: ;
+}
+.search-history {
+	margin: 0 30rpx 50rpx 30rpx;
+	font-size: 26rpx;
+}
+.search-history-head {
+	margin-bottom: 36rpx;
+	display: flex;
+	justify-content: space-between;
+}
+.search-history-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.search-history-list view {
+	margin-right: 30rpx;
+	padding: 16rpx 26rpx;
+	border-radius: 40rpx;
+	margin-bottom: 30rpx;
+	background: #f7f7f7;
+}
+.search-hot {
+	margin: 0 30rpx;
+	font-size: 26rpx;
+}
+.search-hot-title {
+	margin-bottom: 35rpx;
+}
+.search-hot-item {
+	margin-bottom: 58rpx;
+	display: flex;
+	align-items: center;
+}
+.search-hot-top {
+	margin-left: 8rpx;
+	width: 60rpx;
+	color: #fb2222;
+}
+.search-hot-word {
+	flex: 1;
+}
+.search-hot-word view:nth-child(1) {
+	color: #000;
+	font-size: 30rpx;
+}
+.search-hot-word view:nth-child(2) {
+	color: #878787;
+	font-size: 24rpx;
+}
+.search-hot-word image {
+	width: 48rpx;
+	height: 22rpx;
+}
+.search-hot-count {
+	color: #878787;
+}
+.search-result {
+	padding: 30rpx;
+	border-top: 2rpx solid #e4e4e4;
+}
+.search-result-item {
+	margin-bottom: 30rpx;
+	padding-bottom: 30rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2rpx solid #e4e4e4;
+}
+.search-result-item text {
+	font-size: 50rpx;
+}
+.search-result-word {}
+.search-result-word view:nth-child(1) {
+	margin-bottom: 12rpx;
+	font-size: 28rpx;
+	color: #235790;
+}
+.search-result-word view:nth-child(2) {
+	font-size: 22rpx;
+	color: #898989;
+}
+.search-suggest {
+	border-top: 2rpx solid #e4e4e4;
+	padding: 30rpx;
+	font-size: 26rpx;
+}
+.search-suggest-title {
+	margin-bottom: 74rpx;
+	color: #4574a5;
+}
+.search-suggest-item {
+	margin-bottom: 74rpx;
+	color: #5d5d5d;
+}
+.search-suggest-item text {
+	position: relative;
+	top: 2rpx;
+	margin-right: 28rpx;
+	color: #bdbdbd;
+}
+
